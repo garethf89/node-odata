@@ -5,10 +5,10 @@ REPORTER = dot
 run: lint compile test
 
 lint:
-	node_modules/.bin/eslint src/
+	@node_modules/.bin/eslint src/
 
 compile:
-	node_modules/.bin/babel src --out-dir lib
+	@node_modules/.bin/babel src --out-dir lib
 
 test:
 	@node_modules/.bin/mocha\
