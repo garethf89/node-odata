@@ -16,7 +16,7 @@
     "node": ">=0.12"
   },
   "scripts": {
-    "prepublish": "make",
+    "install": "make",
     "test": "make"
   },
   "keywords": [
