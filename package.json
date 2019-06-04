@@ -16,7 +16,7 @@
     "node": ">=0.12"
   },
   "scripts": {
-    "postinstall": "make",
+    "prepare": "make",
     "test": "make"
   },
   "keywords": [
